@@ -1,0 +1,23 @@
+.header {
+    padding: 48px 64px 0 64px;
+
+    // background-image: ./images/IMAGEhero.jpg;
+
+    &__nav {
+        color: #000;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: calc(24 / 15);
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    &__list {
+        color: #000;
+        text-decoration: none;
+    }
+}
