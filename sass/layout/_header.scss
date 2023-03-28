@@ -2,22 +2,35 @@
     padding: 48px 64px 0 64px;
 
     // background-image: ./images/IMAGEhero.jpg;
+    background-image: url(/images/IMAGEhero.jpg);
+    width: 1200px;
+    height: 720px;
 
     &__nav {
+        display: inline-flex;
         color: #000;
         font-family: "Lato";
         font-size: 15px;
         line-height: 24px;
         letter-spacing: calc(24 / 15);
-        display: flex;
-        justify-content: flex-end;
+
+        // justify-content: flex-end;
         list-style: none;
         text-transform: uppercase;
         text-decoration: none;
+
+        padding: 0;
+        margin: 0;
     }
 
     &__list {
         color: #000;
         text-decoration: none;
     }
+}
+
+.position {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
 }
