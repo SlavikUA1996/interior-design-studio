@@ -1,0 +1,23 @@
+{
+  "name": "interior-design-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlavikUA1996/interior-design-studio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlavikUA1996/interior-design-studio/issues"
+  },
+  "homepage": "https://github.com/SlavikUA1996/interior-design-studio#readme",
+  "dependencies": {
+    "joi": "^17.9.1"
+  }
+}
