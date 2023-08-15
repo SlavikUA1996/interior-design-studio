@@ -1,0 +1,40 @@
+.photo {
+    margin-left: 64px;
+    &__img {
+        margin-right: 25px;
+    }
+
+    &__text {
+        margin-bottom: 16px;
+
+        color: #000;
+        font-family: Cardo;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    &__btn {
+        padding: 1px 25px;
+        border-radius: 9999px;
+        border: 1px solid #000;
+
+        color: #000;
+        font-family: Cardo;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 147.059% */
+        text-transform: lowercase;
+    }
+}
+
+.img-margin {
+    margin-top: 200px;
+    // margin-bottom: 115px;
+}
+
+.photo__img:last-child {
+    margin-right: 0;
+}
