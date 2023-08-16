@@ -108,6 +108,9 @@
   font-weight: 400;
   line-height: 25px;
 }
+.text__project {
+  text-align: right;
+}
 
 .location-imgtext {
   display: -webkit-inline-box;
@@ -120,4 +123,90 @@
   display: block;
   margin-right: 210px;
   margin-left: 210px;
+}
+
+.list-text {
+  color: #000;
+  text-align: center;
+  font-family: Cardo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.services {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.block-services {
+  margin-bottom: 25px;
+}
+
+.block-list {
+  display: grid;
+  grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+  gap: 108px 75px;
+}
+
+.block-text {
+  color: #000;
+  text-align: center;
+  font-family: Cardo;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.title-list {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.contactMe {
+  text-align: center;
+}
+
+.list-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products {
+  margin-right: 40px;
+}
+
+.footer__text {
+  color: #000;
+  font-family: Cardo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer-list {
+  margin-right: 16px;
+  color: #000;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-transform: uppercase;
+  list-style: none;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
